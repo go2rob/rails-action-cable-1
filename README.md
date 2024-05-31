@@ -6,14 +6,20 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version `3.2.2`
-`cd project/dir`
-`rbenv install`
+```shell
+cd project/dir
+rbenv install
+```
 * System dependencies
 Sqlite3 need to be installed
-`sudo apt install sqlite3`
+```shell
+sudo apt install sqlite3
+```
 
 * Configuration
-`bundle install`
+```shell
+bundle install
+`
 * Database creation
 ```shell
 bundle exec rake db:create
@@ -28,6 +34,7 @@ SPA is located in `lib/spas` - a CRA App
 cd lib/spas/action-cable-poc
 nvm install
 nvm use
+npm i
 npm run start
 ```
 * How to run the test suite
