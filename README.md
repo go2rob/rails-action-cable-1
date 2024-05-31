@@ -19,7 +19,7 @@ sudo apt install sqlite3
 * Configuration
 ```shell
 bundle install
-`
+```
 * Database creation
 ```shell
 bundle exec rake db:create
